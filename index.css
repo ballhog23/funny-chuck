@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+p{
+    font-size: 30px;
+    color:yellow;
+    font-style: italic;
+}
+h4{
+    padding: 1rem 0;
+    color: yellow;
+}
+button{
+    width: 175px;
+    height:75px;
+    text-align: center;
+    padding: 1rem;
+    color: yellow;
+    background-color: #000;
+    border: 2px solid yellow;
+    letter-spacing: 2px;
+}
+button:hover{
+    border-color: violet;
+}
