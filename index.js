@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 const onClick = () => {
     let joke = document.getElementById('joke');
