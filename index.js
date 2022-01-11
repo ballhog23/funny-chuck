@@ -1,11 +1,9 @@
 "use strict";
 
-const onClick = () => {
+async function onClick() {
     let joke = document.getElementById('joke');
-    callUrl('https://api.chucknorris.io/jokes/random')
-        .then((v) => {
-            joke.innerText = v.value;
-        })
+    let res = await callUrl('https://api.chucknorris.io/jokes/random');
+    joke.innerText = res.value;
 }
 
 async function callUrl(url) {
